@@ -1,5 +1,5 @@
 # Sales Forecast Prediction – Python
-Forecast prediction is predicting a future value using past values and many other factors. In this tutorial, we will create a sales forecasting model using the Keras functional API.
+Forecast prediction is predicting a future value using past values and many other factors.
 
 # Sales forecasting
 It is determining present-day or future sales using data like past sales, seasonality, festivities, economic conditions, etc.
