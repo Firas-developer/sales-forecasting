@@ -25,18 +25,16 @@ tensorflow
 csv
 matplotlib.pyplot
 
-The use of external libraries has been kept to a minimum to provide a simpler interface, you can replace the functions used in this tutorial with those already existing in established libraries.
-8
+The use of external libraries has been kept to a minimum to provide a simpler interface.
 As you can see, the sales data seems to be following a similar kind of pattern for each year and the peak sales value seems to be increasing with time over the 5-year time frame.
 
 In this 5-year time frame, the first 4 years will be used to train the model and the last year will be used as a test set. 
 
-Now, a few helper functions were used for processing the dataset and creating inputs of the required shape and size. They are as follows:
-
+Now, a few helper functions were used for processing the dataset and creating inputs of the required shape and size. 
+They are as follows:
 get_data – used to load the data set using a path to its location.
 date_to_day – provides a day to each day. For example — 2/2/16 is Saturday and 9/5/15 is Monday.
 date_to_enc – Encodes data into one-hot vectors, this provides a better learning opportunity for the model.
-All the properties of these functions and a few other functions cannot be explained here as it would take too much time. Please visit this link if you want to look at the entire code.
 
 Preprocessing:
 Initially, the data set had only two columns: date and traffic(sales).
@@ -63,7 +61,6 @@ seasonality – seasonality was added to mark trends like summer sales, etc
 Eight separate inputs are processed and concatenated into a single layer and passed to the model.
 
 The finalized inputs are as follows:
-
 Date
 Month
 Year
@@ -72,4 +69,5 @@ Previous seven days sales
 sales in the previous year
 Season
 Holiday or not
+
 Here in most layers, I have used 5 units as the output shape, you can further experiment with it to increase the efficiency of the model. 
