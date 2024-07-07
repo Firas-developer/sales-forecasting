@@ -56,17 +56,15 @@ pip install pandas numpy scikit-learn matplotlib
 * Create a supervised learning problem
 * Split the data into training and testing sets
 * Train a linear regression model
+* Evaluate the model using MSE, MAE, and R2 score
 * Plot the actual vs. predicted sales
 
 # Results
 ## The output includes:
 Evaluation metrics:
-* Train data shape
-* Test data shape
-* x_train shape
-* y_train shape
-* x_test shape
-* y_test shape
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+* R2 Score
 
 A plot comparing the actual sales and the predicted sales.
 The plot helps visualize the model's performance in predicting sales for the test period.
