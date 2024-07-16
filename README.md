@@ -30,7 +30,6 @@ This project demonstrates how to use linear regression to predict monthly sales 
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
